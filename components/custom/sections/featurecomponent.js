@@ -2,221 +2,25 @@
 import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
-import img1 from "../../../assets/images/features/feature13/img1.jpg";
-import img2 from "../../../assets/images/features/feature13/img2.jpg";
-import img3 from "../../../assets/images/features/feature13/img3.jpg";
-import img4 from "../../../assets/images/features/feature13/img4.jpg";
 import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 
 const FeatureComponent = () => {
   return (
     <div>
       <div className="spacer bg-light">
-        <Container>
+        <Container id='about-matt'>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Features</h1>
-              <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="spacer feature4">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <span className="label label-danger label-rounded">
-                Feature 1
-              </span>
-              <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
-              <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
-              </h6>
-            </Col>
-          </Row>
-          <Row className="m-t-40">
-            <Col md="6" className="wrap-feature4-box">
-              <Card>
-                <CardBody>
-                  <div className="icon-round bg-light-info">
-                    <i className="fa fa-star"></i>
-                  </div>
-                  <h5 className="font-medium">Instant Solutions</h5>
-                  <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.
-                  </p>
-                  <a href="#" className="linking text-themecolor">
-                    Explore More<i className="ti-arrow-right"></i>
-                  </a>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="6" className="wrap-feature4-box">
-              <Card>
-                <CardBody>
-                  <div className="icon-round bg-light-info">
-                    <i className="fa fa-check-circle"></i>
-                  </div>
-                  <h5 className="font-medium">Powerful Techniques </h5>
-                  <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
-                  </p>
-                  <a className="linking text-themecolor" href="#">
-                    Explore More <i className="ti-arrow-right"></i>
-                  </a>
-                </CardBody>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="bg-light spacer feature20 up">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <span className="label label-info label-rounded">Feature 2</span>
-              <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
-              <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
-              </h6>
-            </Col>
-          </Row>
-          <Row className="wrap-feature-20">
-            <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img1}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-            <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img2}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-            <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img3}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-            <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img4}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
+              <h1 className="title font-bold">About Matthew</h1>
+              <h5 className="subtitle">
+              I’m Matthew Kroll and I am currently a student-athlete at the University of Michigan, competing for the men’s swim team. I am going into my sophomore year and will be studying mechanical engineering with future aspirations of entrepreneurship. My motivation for attempting to swim a marathon actually comes from my good friend and teammate, Ryan Hume. The conversation started during a social kick at practice where we wondered how long swimming a marathon would take and how difficult it might be. After talking about it more, we decided on trying to swim one despite all of the noise saying, “you’re crazy.” The idea came about that we would use the platform to raise awareness for a cause; we wanted the cause to be close to heart and close to home, hence why we chose to support the Michigan State Swim & Dive team and inspire a new trend for other lost programs. We hope that the Marathon for MSU will generate enough support for the reinstatement of the MSU team and draw attention to other programs across the nation that have recently been cut.
+              </h5>
             </Col>
           </Row>
         </Container>
       </div>
       <div className="spacer ">
-        <Container className="feature30">
+        <Container className="feature30" id='support'>
           <Row>
             <Col lg="10">
               <Image
@@ -229,23 +33,19 @@ const FeatureComponent = () => {
               <Card className="card-shadow">
                 <CardBody>
                   <div className="p-20">
-                    <span className="label label-info label-rounded">
-                      Feature 3
-                    </span>
                     <h3 className="title">
-                      The New way of Making Your Website in mins
+                      Support The Cause
                     </h3>
                     <p>
-                      You can relay on our amazing features list and also our
-                      customer services will be great experience. You will love
-                      it for sure.
+                    Pledge your support to the Battle for Spartan Swim and Dive’s campaign to reinstate their program.
                     </p>
                     <a
                       className="btn btn-danger btn-md btn-arrow m-t-20"
-                      href="#"
+                      href="https://battleforspartanswimanddive.com/"
+                      target="_blank"
                     >
                       <span>
-                        Explore More <i className="ti-arrow-right"></i>
+                        Pledge Your Support <i className="ti-arrow-right"></i>
                       </span>
                     </a>
                   </div>

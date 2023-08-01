@@ -10,63 +10,11 @@ const BannerComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Banners</h1>
-              <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="static-slider10">
-        <Container>
-          <Row className="">
-            <Col md="6" className="align-self-center ">
-              <span className="label label-rounded label-inverse">
-                Creating Brands
-              </span>
-              <h1 className="title">ONE BILLON People Use Facebook</h1>
-              <h6 className="subtitle op-8">
-                Pellentesque vehicula eros a dui pretium ornare. Phasellus
-                congue vel quam nec luctus.In accumsan at eros in dignissim.
-                Cras sodales nisi nonn accumsan.
-              </h6>
-              <a
-                className="btn btn-light btn-rounded btn-md m-t-20"
-                data-toggle="collapse"
-                href=""
-              >
-                <span>Do you Need Help?</span>
-              </a>
-            </Col>
-            <Col md="6">
-              <Image src={herobanner} alt="herobanner"></Image>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="static-slider3">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="8" className="align-self-center text-center">
-              <h1 className="title">
-                I’m Johanthan Doe, an{" "}
-                <b className="font-bold">
-                  Entreprenuer, Designer & Front-end Developer
-                </b>
-                , Making{" "}
-              </h1>
-              <a
-                className="btn btn-danger btn-md btn-arrow m-t-20"
-                data-toggle="collapse"
-                href=""
-              >
-                <span>
-                  Checkout My Work <i className="ti-arrow-right"></i>
-                </span>
-              </a>
+              <h1 className="title font-bold">About Event</h1>
+              <h5 className="subtitle">
+              On Sept. 3, participating teams and clubs are challenged to swim 26.2 miles and help save Spartan Swim and Dive. There will be prizes going to the fastest relays, top fundraisers, and individual finishers.
+The brainchild of University of Michigan swimmer Matthew Kroll, Marathon for MSU sets aside a longtime school rivalry to focus on the greater issues facing our sport and amplify efforts to bring back the Michigan State Men’s and Women’s Swim and Dive teams.
+              </h5>
             </Col>
           </Row>
         </Container>

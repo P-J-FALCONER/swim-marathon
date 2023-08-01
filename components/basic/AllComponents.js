@@ -1,5 +1,4 @@
 import React from "react";
-import Banner from "../banner/Banner";
 // sections for this page
 import Buttons from "./buttons";
 import Labels from "./labels";
@@ -14,12 +13,10 @@ import Notification from "./notification";
 import TooltipPopover from "./tooltip-popover";
 import Typography from "./typography";
 import JsComponents from "./js-components";
-import CallToAction from "../call-to-action/CallToAction";
 
 const AllComponents = () => {
   return (
     <div>
-      <Banner />
       <Buttons />
       <Labels />
       <PagePagination />
@@ -33,7 +30,6 @@ const AllComponents = () => {
       <TooltipPopover />
       <Typography />
       <JsComponents />
-      <CallToAction />
     </div>
   );
 };

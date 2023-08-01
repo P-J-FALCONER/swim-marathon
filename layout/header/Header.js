@@ -37,7 +37,7 @@ const Header = () => {
             >
               <Nav navbar className="ml-auto">
                 <NavItem>
-                  <Link href="/">
+                  <Link href="#about-matt">
                     <a
                       className={
                         router.pathname == "/"
@@ -45,12 +45,12 @@ const Header = () => {
                           : "nav-link"
                       }
                     >
-                      Custom Components
+                      Matthew's Story
                     </a>
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/basic">
+                  <Link href="#signup">
                     <a
                       className={
                         router.pathname == "/basic"
@@ -58,18 +58,57 @@ const Header = () => {
                           : "nav-link"
                       }
                     >
-                      Basic-Components
+                      Sign Up Here
+                    </a>
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/basic">
+                    <a
+                      className={
+                        router.pathname == "#sample"
+                          ? "text-white nav-link"
+                          : "nav-link"
+                      }
+                    >
+                      Sample Sets
+                    </a>
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/basic">
+                    <a
+                      className={
+                        router.pathname == "#follow"
+                          ? "text-white nav-link"
+                          : "nav-link"
+                      }
+                    >
+                      Follow Matthew
+                    </a>
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="#support">
+                    <a
+                      className={
+                        router.pathname == "/basic"
+                          ? "text-white nav-link"
+                          : "nav-link"
+                      }
+                    >
+                      Support the Cause
                     </a>
                   </Link>
                 </NavItem>
               </Nav>
               <div className="act-buttons">
                 <NavLink
-                  href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
+                  href="/"
                   className="btn btn-light font-14"
                   target="_blank"
                 >
-                  Download Free
+                  Donate
                 </NavLink>
               </div>
             </Collapse>

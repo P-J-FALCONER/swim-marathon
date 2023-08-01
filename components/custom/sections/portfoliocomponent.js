@@ -12,29 +12,13 @@ import img6 from "../../../assets/images/portfolio/img6.jpg";
 const PortfolioComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
+      <div className="spacer" id='sample'>
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Portfolio</h1>
+              <h2 className="title">Sample Sets</h2>
               <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="spacer">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h2 className="title">Our Recent work with three column</h2>
-              <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+              Need some inspiration? Here’s some ways you or your team can complete a Marathon for MSU!
               </h6>
             </Col>
           </Row>
