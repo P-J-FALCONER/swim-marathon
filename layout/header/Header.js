@@ -24,7 +24,7 @@ const Header = () => {
         <Container className="po-relative">
           <Navbar className="navbar-expand-lg h6-nav-bar">
             <NavbarBrand href="/">
-              <Image src={logo} alt="wrapkit" />
+              {/* <Image src={logo} alt="wrapkit" /> */}
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu"></span>
@@ -63,7 +63,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/basic">
+                  <Link href="#sample-sets">
                     <a
                       className={
                         router.pathname == "#sample"
@@ -76,7 +76,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/basic">
+                  <Link href="#follow">
                     <a
                       className={
                         router.pathname == "#follow"

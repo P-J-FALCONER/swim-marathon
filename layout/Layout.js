@@ -1,5 +1,4 @@
 import Header from "./header/Header";
-import Footer from "./footer/Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -8,7 +7,6 @@ const Layout = ({ children }) => {
       <div className="page-wrapper">
         <div className="container-fluid">{children}</div>
       </div>
-      <Footer />
     </div>
   );
 };

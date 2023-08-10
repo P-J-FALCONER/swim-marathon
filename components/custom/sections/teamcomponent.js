@@ -9,8 +9,7 @@ const TeamComponent = () => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h2 className="title">Follow Matthew</h2>
-                            <h6 className="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                            <h2 className="title">Follow Matthew & Teammates</h2>
                         </Col>
                     </Row>
                     <Row className="m-t-30">
@@ -18,7 +17,7 @@ const TeamComponent = () => {
 
                         <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic t3">
+                                <Col md="12" className="col-md-12 pro-pic">
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
                                             <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -30,16 +29,15 @@ const TeamComponent = () => {
                                 </Col>
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Michael Doe</h5>
-                                        <h6 className="subtitle">Property Specialist</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <h5 className="title font-medium">Matthew</h5>
+                                        <p>blahbblah.</p>
                                     </div>
                                 </Col>
                             </Row>
                         </Col>
                         <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic t4">
+                                <Col md="12" className="col-md-12 pro-pic ">
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
                                             <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -51,9 +49,8 @@ const TeamComponent = () => {
                                 </Col>
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Michael Doe</h5>
-                                        <h6 className="subtitle">Property Specialist</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <h5 className="title font-medium">Teammate</h5>
+                                        <p>balh blah.</p>
                                     </div>
                                 </Col>
                             </Row>

@@ -16,15 +16,15 @@ const Banner2 = () => {
             <h4 className="subtitle font-light">
             September 3rd 2023
             </h4>
-            <a
+            <Link
               href="/"
               className="btn btn-danger m-r-20 btn-md m-t-30 "
             >
               Donate
-            </a>
+            </Link>
           </Col>
           <Col lg="6" md="6">
-            <Image src={bannerimg} alt="hero banner" />
+            {/* <Image src={bannerimg} alt="hero banner" /> */}
           </Col>
         </Row>
       </Container>
