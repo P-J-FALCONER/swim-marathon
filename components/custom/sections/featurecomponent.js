@@ -7,7 +7,7 @@ import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 const FeatureComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
+      <div className="spacer m-yellow">
         <Container id='about-matt'>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">

@@ -5,7 +5,7 @@ import { Row, Col, Container } from "reactstrap";
 const BannerComponent = () => {
   return (
     <div>
-      <div className="spacer">
+      <div className="spacer msu-green">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">

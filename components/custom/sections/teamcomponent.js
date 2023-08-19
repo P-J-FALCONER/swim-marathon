@@ -5,7 +5,7 @@ import { Row, Col, Container } from 'reactstrap';
 const TeamComponent = () => {
     return (
         <div>
-            <div className="spacer team2" id='follow'>
+            <div className="spacer team2 m-blue" id='follow'>
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
