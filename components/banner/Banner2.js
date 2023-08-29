@@ -18,7 +18,7 @@ const Banner2 = () => {
             </h4>
             <Link
               href="/"
-              className="btn btn-danger m-r-20 btn-md m-t-30 "
+              className="btn btn-success m-r-20 btn-md m-t-30 "
             >
               Donate
             </Link>

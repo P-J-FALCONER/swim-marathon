@@ -11,7 +11,7 @@ const FeatureComponent = () => {
         <Container id='about-matt'>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">About Matthew</h1>
+              <h1 className="title font-bold" >About Matthew</h1>
               <h5 className="subtitle">
               I’m Matthew Kroll and I am currently a student-athlete at the University of Michigan, competing for the men’s swim team. I am going into my sophomore year and will be studying mechanical engineering with future aspirations of entrepreneurship. My motivation for attempting to swim a marathon actually comes from my good friend and teammate, Ryan Hume. The conversation started during a social kick at practice where we wondered how long swimming a marathon would take and how difficult it might be. After talking about it more, we decided on trying to swim one despite all of the noise saying, “you’re crazy.” The idea came about that we would use the platform to raise awareness for a cause; we wanted the cause to be close to heart and close to home, hence why we chose to support the Michigan State Swim & Dive team and inspire a new trend for other lost programs. We hope that the Marathon for MSU will generate enough support for the reinstatement of the MSU team and draw attention to other programs across the nation that have recently been cut.
               </h5>
@@ -33,7 +33,7 @@ const FeatureComponent = () => {
               <Card className="card-shadow">
                 <CardBody>
                   <div className="p-20">
-                    <h3 className="title">
+                    <h3 className="title black-text">
                       Support The Cause
                     </h3>
                     <p>
