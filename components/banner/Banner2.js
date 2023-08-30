@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
-import bannerimg from "../../assets/images/landingpage/banner-img.png";
+import { Container, Row, Col, Button } from "reactstrap";
 
 const Banner2 = () => {
   return (
@@ -16,11 +14,11 @@ const Banner2 = () => {
             <h4 className="subtitle font-light">
             In the month of September
             </h4>
-            <Link
-              href="https://battleforspartanswimanddive.com/"
-              className="btn btn-success m-r-20 btn-md m-t-30 "
-            >
+            <Link href="https://battleforspartanswimanddive.com/"
+            target="_blank">
+              <Button className="btn btn-md m-t-30 btn-info-gradiant font-14">
               Pledge Support Here
+              </Button>
             </Link>
           </Col>
           <Col lg="6" md="6">
