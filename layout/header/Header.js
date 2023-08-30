@@ -88,27 +88,14 @@ const Header = () => {
                     </a>
                   </Link>
                 </NavItem>
-                <NavItem>
-                  <Link href="#support">
-                    <a
-                      className={
-                        router.pathname == "/basic"
-                          ? "text-white nav-link"
-                          : "nav-link"
-                      }
-                    >
-                      Support the Cause
-                    </a>
-                  </Link>
-                </NavItem>
               </Nav>
               <div className="act-buttons">
                 <NavLink
-                  href="/"
+                  href="https://battleforspartanswimanddive.com/"
                   className="btn btn-light font-14"
                   target="_blank"
                 >
-                  Donate
+                  Pledge Support Here
                 </NavLink>
               </div>
             </Collapse>

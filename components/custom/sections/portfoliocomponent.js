@@ -5,7 +5,7 @@ import { Row, Col, Container, Card, CardBody } from "reactstrap";
 const PortfolioComponent = () => {
   return (
     <div>
-      <div className="spacer msu-green" id='sample-sets'>
+      <div className="spacer msu-white" id='sample-sets'>
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">

@@ -14,13 +14,13 @@ const Banner2 = () => {
             Join us for the Marathon for MSU!
             </h1>
             <h4 className="subtitle font-light">
-            September 3rd 2023
+            In the month of September
             </h4>
             <Link
-              href="/"
+              href="https://battleforspartanswimanddive.com/"
               className="btn btn-success m-r-20 btn-md m-t-30 "
             >
-              Donate
+              Pledge Support Here
             </Link>
           </Col>
           <Col lg="6" md="6">

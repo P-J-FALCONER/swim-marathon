@@ -5,7 +5,6 @@ import Banner2 from "../banner/Banner2";
 
 // sections for this page
 import BannerComponent from "./sections/bannercomponent";
-import FeatureComponent from "./sections/featurecomponent";
 import PortfolioComponent from "./sections/portfoliocomponent";
 import TeamComponent from "./sections/teamcomponent";
 import C2aComponent from "./sections/c2acomponent";
@@ -16,7 +15,6 @@ const CustomComponents = () => {
     <div>
       <Banner2 />
       <BannerComponent />
-      <FeatureComponent />
       <PortfolioComponent />
       <TeamComponent />
       <C2aComponent />

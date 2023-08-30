@@ -20,17 +20,15 @@ const TeamComponent = () => {
                                 <Col md="12" className="col-md-12 pro-pic">
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li>
+                                            <li className="list-inline-item"><a href="https://www.youtube.com/@thew2blue"><i className="fa fa-youtube"></i></a></li>
+                                            <li className="list-inline-item"><a href="https://www.instagram.com/matthew.k0/?hl=en"><i className="fa fa-instagram"></i></a></li>
                                         </ul>
                                     </div>
                                 </Col>
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Matthew</h5>
-                                        <p>blahbblah.</p>
+                                        <h5 className="title font-medium">Matthew Kroll</h5>
+                                        <p>University of Michigan Class of 2026</p>
                                     </div>
                                 </Col>
                             </Row>
