@@ -53,7 +53,7 @@ const Header = () => {
                   <Link href="#signup">
                     <a
                       className={
-                        router.pathname == "/basic"
+                        router.pathname == "/"
                           ? "text-white nav-link"
                           : "nav-link"
                       }
