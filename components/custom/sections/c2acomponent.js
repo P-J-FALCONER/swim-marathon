@@ -10,7 +10,7 @@ const C2aComponent = () => {
         <Container>
           <div className="d-flex">
             <div className="display-6 align-self-center">
-            Register here to be eligible for cool prizes, including Speedo swimsuits and an appearance by retired U of M coach Mike Bottom!
+            Register here to be eligible for cool prizes and an appearance by retired U of M coach Mike Bottom!
             </div>
           </div>
           <div className="d-flex">

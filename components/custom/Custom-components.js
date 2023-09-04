@@ -7,6 +7,7 @@ import Banner2 from "../banner/Banner2";
 import BannerComponent from "./sections/bannercomponent";
 import PortfolioComponent from "./sections/portfoliocomponent";
 import TeamComponent from "./sections/teamcomponent";
+import FinisherComponent from "./sections/finishercomponent";
 import C2aComponent from "./sections/c2acomponent";
 import ContactComponent from "./sections/contactcomponent";
 
@@ -18,6 +19,7 @@ const CustomComponents = () => {
       <PortfolioComponent />
       <TeamComponent />
       <C2aComponent />
+      <FinisherComponent />
       <ContactComponent />
     </div>
   );

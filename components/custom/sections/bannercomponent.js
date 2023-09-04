@@ -2,6 +2,8 @@
 import React from "react";
 import { Row, Col, Container, Button } from "reactstrap";
 import Link from "next/link";
+import Image from "next/image";
+import img1 from "../../../assets/images/ui/matt_kroll_1.jpg";
 
 const BannerComponent = () => {
   return (
@@ -22,6 +24,13 @@ The brainchild of University of Michigan swimmer Matthew Kroll, Marathon for MSU
               </Button>
             </Link>
 
+            </Col>
+            <Col md="5" className="text-center">
+            <Image
+              src={img1}
+              alt="img"
+              className="img-responsive img-rounded"
+            />
             </Col>
           </Row>
         </Container>

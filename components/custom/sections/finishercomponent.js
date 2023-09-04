@@ -2,19 +2,19 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import Image from "next/image";
-import img1 from "../../../assets/images/ui/matt_kroll_2.jpg";
+import img1 from "../../../assets/images/ui/matt_kroll_3.jpg";
 
-const TeamComponent = () => {
+const FinisherComponent = () => {
     return (
         <div>
-            <div className="spacer team2 m-blue" id='follow'>
+            <div className="spacer team2 msu-green" id='follow'>
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h2 className="title">Follow Matthew! </h2>
+                            <h2 className="title">Marathon Finishers </h2>
                         </Col>
                     </Row>
-                    <Row className="m-t-30  justify-content-center">
+                    <Row className="m-t-30">
 
 
                         <Col lg="3" md="6" className="m-b-30">
@@ -25,12 +25,6 @@ const TeamComponent = () => {
                                     alt="img"
                                     className="img-responsive img-rounded"
                                     />
-                                    <div className="card-img-overlay">
-                                        <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="https://www.youtube.com/@thew2blue"><i className="fa fa-youtube"></i></a></li>
-                                            <li className="list-inline-item"><a href="https://www.instagram.com/matthew.k0/?hl=en"><i className="fa fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </Col>
                                 <Col md="12">
                                     <div className="p-t-10">
@@ -67,4 +61,4 @@ const TeamComponent = () => {
     );
 }
 
-export default TeamComponent;
+export default FinisherComponent;
