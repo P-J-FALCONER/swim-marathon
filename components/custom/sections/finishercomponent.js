@@ -29,24 +29,7 @@ const FinisherComponent = () => {
                                 </Col>
                                 <Col md="12">
                                     <div className="p-t-10">
-                                        <h5 className="title font-medium">Matthew Kroll</h5>
-                                        <p>University of Michigan Class of 2026</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic">
-                                <Image
-                                    src={img2}
-                                    alt="img"
-                                    className="img-responsive img-rounded"
-                                    />
-                                </Col>
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Ryan Hume</h5>
+                                        <h5 className="title font-medium">Matthew Kroll & Ryan Hume</h5>
                                         <p>University of Michigan Class of 2026</p>
                                     </div>
                                 </Col>
