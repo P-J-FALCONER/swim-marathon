@@ -40,26 +40,23 @@ const TeamComponent = () => {
                                 </Col>
                             </Row>
                         </Col>
-                        {/* <Col lg="3" md="6" className="m-b-30">
+                        <Col lg="9" md="6" className="m-b-30">
                             <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic ">
-                                    <div className="card-img-overlay">
-                                        <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </Col>
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Teammate</h5>
-                                        <p>balh blah.</p>
-                                    </div>
-                                </Col>
+                                <h5>
+                            I’m Matthew Kroll and I am currently a student-athlete at the University of Michigan,
+                            competing for the men’s swim team. I am going into my sophomore year and will be studying
+                            mechanical engineering with future aspirations of entrepreneurship. My motivation for attempting
+                            to swim a marathon actually comes from my good friend and teammate, Ryan Hume. The conversation
+                            started during a social kick at practice where we wondered how long swimming a marathon would take
+                            and how difficult it might be. After talking about it more, we decided on trying to swim one despite
+                            all of the noise saying, “you’re crazy.” The idea came about that we would use the platform to raise
+                            awareness for a cause; we wanted the cause to be close to heart and close to home, hence why we chose
+                            to support the Michigan State Swim & Dive team and inspire a new trend for other lost programs.
+                            We hope that the Marathon for MSU will generate enough support for the reinstatement of the MSU
+                             team and draw attention to other programs across the nation that have recently been cut.
+                             </h5>
                             </Row>
-                        </Col> */}
+                        </Col>
                     </Row>
                 </Container>
             </div>
