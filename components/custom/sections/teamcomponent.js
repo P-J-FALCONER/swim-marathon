@@ -1,8 +1,9 @@
 /* eslint-disable */
 import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col, Container, Button } from 'reactstrap';
 import Image from "next/image";
 import img1 from "../../../assets/images/ui/matt_kroll_2.jpg";
+import Link from "next/link";
 
 const TeamComponent = () => {
     return (
@@ -55,6 +56,12 @@ const TeamComponent = () => {
                             We hope that the Marathon for MSU will generate enough support for the reinstatement of the MSU
                              team and draw attention to other programs across the nation that have recently been cut.
                              </h5>
+                             <Link href="https://www.youtube.com/watch?v=651sFTCklhg"
+                            target='_blank'>
+                            <Button className="btn btn-md m-t-30 btn-info-gradiant font-14">
+                            Check Out Matthew Video About His Marathon Swim!
+                            </Button>
+                            </Link>
                             </Row>
                         </Col>
                     </Row>
