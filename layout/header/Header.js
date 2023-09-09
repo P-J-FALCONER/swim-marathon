@@ -12,7 +12,7 @@ import {
   Container,
   NavLink,
 } from "reactstrap";
-import logo from "../../assets/images/logos/M4M_Logo.jpeg";
+import logo from "../../assets/images/logos/transparent_logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ const Header = () => {
                     <a
                       className={
                         router.pathname == "/"
-                          ? "text-white nav-link"
+                          ? "text-black nav-link"
                           : "nav-link"
                       }
                     >
@@ -54,7 +54,7 @@ const Header = () => {
                     <a
                       className={
                         router.pathname == "/"
-                          ? "text-white nav-link"
+                          ? "text-black nav-link"
                           : "nav-link"
                       }
                     >
@@ -66,8 +66,8 @@ const Header = () => {
                   <Link href="#sample-sets">
                     <a
                       className={
-                        router.pathname == "#sample"
-                          ? "text-white nav-link"
+                        router.pathname == "/"
+                          ? "text-black nav-link"
                           : "nav-link"
                       }
                     >
@@ -79,8 +79,8 @@ const Header = () => {
                   <Link href="#follow">
                     <a
                       className={
-                        router.pathname == "#follow"
-                          ? "text-white nav-link"
+                        router.pathname == "/"
+                          ? "text-black nav-link"
                           : "nav-link"
                       }
                     >

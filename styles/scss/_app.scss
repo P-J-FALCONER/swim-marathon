@@ -558,6 +558,9 @@ Text Colors
 .text-white {
   color: $white !important;
 }
+.text-black {
+  color: $black !important;
+}
 
 .text-danger {
   color: $danger !important;
@@ -1753,5 +1756,4 @@ a.btn-outline-success {
   overflow: auto;
   background-size: cover;
   background-position: top 20% center;
-  background-image: $c2a-image;
 }
