@@ -10,14 +10,14 @@ const PortfolioComponent = () => {
           <Row className="justify-content-center">
             <Col md="12" className="text-center">
               <h2 className="title set-name">Need some inspiration? Here’s some ways you or your team can complete a Marathon for MSU!</h2>
-              <h6 className="subtitle">
+              <h6 className="subtitle black_font">
               1 mile in a pool equals …..
               </h6>
-              <h6 className="subtitle">
+              <h6 className="subtitle black_font">
               Yards
                 1,760 yards
               </h6>
-              <h6 className="subtitle">
+              <h6 className="subtitle black_font">
               Meters
                 1,609.3 meters
               </h6>

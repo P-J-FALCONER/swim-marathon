@@ -20,7 +20,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div className="topbar" id="top">
-      <div className="header6">
+      <div className="header6 white_background">
         <Container className="po-relative">
           <Navbar className="navbar-expand-lg h6-nav-bar">
             <NavbarBrand href="/">
@@ -92,7 +92,7 @@ const Header = () => {
               <div className="act-buttons">
                 <NavLink
                   href="https://battleforspartanswimanddive.com/"
-                  className="btn btn-light font-14"
+                  className="btn btn-info font-14"
                   target="_blank"
                 >
                   Pledge Support Here

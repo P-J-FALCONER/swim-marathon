@@ -12,7 +12,7 @@ const Banner2 = () => {
             Join us for the Marathon for MSU!
             </h1>
             <h4 className="subtitle font-light">
-            In the month of September
+            We challenge teams to complete 26.2 miles in a pool, and raise awareness for our sport!
             </h4>
             <Link href="https://battleforspartanswimanddive.com/"
             target="_blank">
